@@ -1,0 +1,21 @@
+@import url("https://fonts.googleapis.com/css2?family=Poiret+One&display=swap");
+@import url("https://fonts.googleapis.com/css2?family=Montserrat:ital,wght@0,100..900;1,100..900&display=swap");
+@import "tailwindcss";
+
+
+
+@theme {
+  --font-poiret: "Poiret One", sans-serif;
+  --font-montserrat: "Montserrat", sans-serif;
+  --color-avocado-100: oklch(0.99 0 0);
+  --color-avocado-200: oklch(0.98 0.04 113.22);
+  --color-avocado-300: oklch(0.94 0.11 115.03);
+  --color-avocado-400: oklch(0.92 0.19 114.08);
+  --color-avocado-500: oklch(0.84 0.18 117.33);
+  --color-avocado-600: oklch(0.53 0.12 118.34);
+ }
+
+ .my-button {
+    @apply text-white bg-blue-500 box-border border border-transparent rounded-md text-sm px-5 py-2 shadow-lg
+}
+

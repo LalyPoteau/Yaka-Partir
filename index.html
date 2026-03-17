@@ -1,0 +1,126 @@
+<!doctype html>
+<html lang="en">
+    <head>
+      <meta charset="UTF-8" />
+        <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+        <title> Yaka Partir</title>
+        
+       
+        <link href="/src/style.css" rel="stylesheet">  
+    </head>
+    <body class="max-w-5xl items-center justify-center content-center m-auto bg-gray-100 font-montserrat">
+      <nav class="flex justify-between items-center py-4 border-b border-gray-300 ">
+        <a href="" class="text-2xl capitalize font-poiret font-semibold"><span class="text-blue-500 text-5xl">Y</span>aka partir.fr</a>
+
+        <ul class="flex gap-2">
+          <li class="font-bold">Accueil</li>
+          <li>Notre guide</li>
+          <li>S'inspirer</li>
+          <li>Info Pratiques</li>
+        </ul>
+        <button class="my-button">s'inscrire</button>
+        
+      </nav>
+
+
+
+      <div class="flex relative mt-5">
+        <div class="basis-lg">
+        <h1 class="text-5xl font-bold capitalize">
+        visiter les plus <span class="font-extrabold text-blue-500">belle villes</span> de france
+        </h1>
+        <p class="leading-7 text-mg">Ah, le plaisir de musarder le nez en l'air, de déambuler entre amis, en famille. En France, plus qu'ailleurs, on sait prendre le temps de vivre et de profiter de ces bons moments partagés.</p>
+        </div>
+        <div class="basis-3xl">
+  <div class="grid grid-cols-[1.5fr_1fr_1fr] gap-3 auto-rows-[40px]">
+  
+    <img src="src/images/paris.jpg" alt="Paris" 
+      class="row-span-5 w-full h-full object-cover rounded-tl-[60px] rounded-br-2xl">
+    
+    <img src="src/images/annecy.jpg" alt="Annecy" 
+      class="row-start-6 row-span-5 w-full h-full object-cover rounded-2xl">
+
+    <img src="src/images/lille.jpg" alt="Lille" 
+      class="row-start-2 row-span-5 w-full h-full object-cover rounded-tr-[60px] rounded-bl-2xl rounded-br-2xl">
+    
+    <img src="src/images/bordeaux.jpg" alt="Bordeaux" 
+      class="row-start-7 row-span-4 w-full h-full object-cover rounded-2xl">
+
+    <img src="src/images/nice.jpg" alt="Nice" 
+      class="row-start-4 row-span-7 w-full h-full object-cover rounded-tr-2xl rounded-br-[60px]">
+
+  </div>
+</div>
+        <form action="" class="absolute left-0 bottom-0 bg-white p-4 rounded-md flex gap-5 items-center">
+          <div class="flex flex-col gap-1">
+          <label class="font-bold" for="destination">Destination</label>
+          <select class="border text-xs rounded-xs" name="destination" id="destination">
+            <option value="">Où voulez vous aller ?</option>
+            <option value="paris">Paris</option>
+            <option value="lille">Lille</option>
+            <option value="annecy">Annecy</option>
+            <option value="bordeaux">Bordeaux</option>
+            <option value="nice">Nice</option>
+          </select>
+          </div>
+          <div class="flex flex-col gap-1">
+          <label class="font-bold" for="arriver">Arrivée</label>
+          <input class="border text-xs rounded-xs" type="date" name="arriver" id="arriver">
+          </div>
+          <div class="flex flex-col gap-1">
+          <label class="font-bold" for="depart">Départ</label>
+          <input class="border text-xs rounded-xs" type="date" name="depart" id="depart">
+          </div>
+          <button type="submit" class="my-button">Chercher</button>
+        </form>
+</div>
+<div>
+<h2 class="font-bold mt-15 mb-15 relative">Quelques lieux a ne pas manquer</h2>
+<img src="src/images/marker.png" alt="underline" class="absolute left-85 w-25 bottom-16">
+</div>
+
+  <div class="grid grid-cols-4 grid-rows-3 gap-4 mb-15"> 
+    
+    <figure class="relative col-span-2 row-span-2  border-4 border-white rounded-xl shadow-lg overflow-hidden rotate-3">
+        <img src="src/images/agde.jpg" class="w-full h-full object-cover" alt="Agde">
+        <figcaption class="absolute bottom-0 left-0 right-0 bg-black/50 text-white text-xs py-1 px-2">Agde - Occitanie</figcaption>
+    </figure>
+<figure class="relative row-span-2 rotate-3 col-start-1 row-start-3 border-4 border-white rounded-xl shadow-lg overflow-hidden">
+        <img src="src/images/carnac.jpg" class="w-full h-full object-cover" alt="Carnac">
+        <figcaption class="absolute bottom-0 left-0 right-0 bg-black/50 text-white text-xs py-1 px-2">Carnac - Bretagne</figcaption>
+    </figure>
+
+    <figure class="relative row-span-2 col-start-2 -rotate-3 row-start-3  border-4 border-white rounded-xl shadow-lg overflow-hidden">
+        <img src="src/images/montelimar.jpg" class="w-full h-full object-cover" alt="Montélimar">
+        <figcaption class="absolute bottom-0 left-0 right-0 bg-black/50 text-white text-xs py-1 px-2">Montélimar - Drôme</figcaption>
+    </figure>
+
+    <figure class="relative row-span-4 -rotate-3 col-start-3 row-start-1 z-20 border-4 border-white rounded-xl shadow-xl overflow-hidden">
+        <img src="src/images/lyon.jpg" class="w-full h-full object-cover" alt="Lyon">
+        <figcaption class="absolute bottom-0 left-0 right-0 bg-black/50 text-white text-xs py-1 px-2">Lyon - Rhône</figcaption>
+    </figure>
+
+    <figure class="relative row-span-2 col-start-4 row-start-1 rotate-3 border-4 border-white rounded-xl shadow-lg overflow-hidden">
+        <img src="src/images/bonifacio.jpg" class="w-full h-full object-cover" alt="Bonifacio">
+        <figcaption class="absolute bottom-0 left-0 right-0 bg-black/50 text-white text-xs py-1 px-2">Bonifacio - Corse</figcaption>
+    </figure>
+
+    
+
+    <figure class="relative row-span-2 -rotate-3 col-start-4 row-start-3 border-4 border-white rounded-xl shadow-lg overflow-hidden">
+        <img src="src/images/biarritz.jpg" class="w-full h-full object-cover" alt="Biarritz">
+        <figcaption class="absolute bottom-0 left-0 right-0 bg-black/50 text-white text-xs py-1 px-2">Biarritz - Pays Basque</figcaption>
+    </figure>
+
+</div>
+
+<footer class="flex justify-between items-center py-4 border-t border-gray-300">
+  <a href="" class="text-2xl capitalize font-poiret font-semibold"><span class="text-blue-500 text-5xl">Y</span>aka partir.fr</a>
+
+  <p>
+    <strong>YakaPartir.fr</strong> est une marque déposé par MMI Création en 2024
+  </p>
+</footer>
+
+      </body>
+</html>
